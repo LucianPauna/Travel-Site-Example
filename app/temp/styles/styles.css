@@ -943,7 +943,7 @@ Instead edit gulp/templates/sprite */
 
 .icon--fire {
     width: 56px;
-    height: 63px;
+    height: 64px;
     background-position: 68.79227053140097% 0;
   }
 
@@ -993,4 +993,26 @@ Instead edit gulp/templates/sprite */
     width: 34.75px;
     height: 42px;
     background-position: 37.34063526834611% 64.765%;
+  }
+
+.site-footer {
+  background-color: #2f5572;
+  color: #FFF;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.site-footer__text {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 200;
+  }
+
+@media (min-width: 800px) {
+
+.site-footer__text {
+      display: inline;
+      margin-bottom: 0;
+      margin-right: 1.4rem
+  }
   }
