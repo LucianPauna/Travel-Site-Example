@@ -1,7 +1,7 @@
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp
 Instead edit gulp/templates/sprite */
 
-    .icon {
+  .icon {
       background-image: url("/assets/images/sprites/sprite-958f76ce.svg");
     }
   .icon--comment {
