@@ -1,76 +1,64 @@
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp
 Instead edit gulp/templates/sprite */
 
-    .icon {
+  .icon {
       background-image: url("/assets/images/sprites/sprite-958f76ce.svg");
     }
-
   .icon--comment {
     width: 64px;
     height: 64px;
     background-position: 30.476190476190474% 65.21739130434783%;
   }
-
   .icon--facebook {
     width: 21.23px;
     height: 42.01px;
     background-position: 74.37591486331448% 56.25351584474029%;
   }
-
   .icon--fire {
     width: 56px;
     height: 64px;
     background-position: 96.3302752293578% 46.3768115942029%;
   }
-
   .icon--globe {
     width: 70px;
     height: 70px;
     background-position: 68.62745098039215% 0;
   }
-
   .icon--instagram {
     width: 42.01px;
     height: 42.01px;
     background-position: 27.58739600844864% 96.25601600100006%;
   }
-
   .icon--mail {
     width: 64px;
     height: 48px;
     background-position: 0 100%;
   }
-
   .icon--rain {
     width: 64px;
     height: 64px;
     background-position: 0 65.21739130434783%;
   }
-
   .icon--romania-escapes {
     width: 140px;
     height: 90px;
     background-position: 0 0;
   }
-
   .icon--star {
     width: 64px;
     height: 64px;
     background-position: 100% 0;
   }
-
   .icon--twitter {
     width: 51.78px;
     height: 42.06px;
     background-position: 94.50094500945009% 80.03001125422034%;
   }
-
   .icon--wifi {
     width: 60px;
     height: 64px;
     background-position: 59.81308411214953% 65.21739130434783%;
   }
-
   .icon--youtube {
     width: 34.75px;
     height: 42px;
