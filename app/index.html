@@ -8,7 +8,7 @@
   <meta name="keywords" content="Travel planning, Travel bundles, Travel escapes, Travel to Romania">
   <meta name="description" content="One trip away. We create breathtaking and relaxing journeys.">
   <link rel="stylesheet" href="temp/styles/styles.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/temp/scripts/Vendor.js"></script>
 </head>
 
 <body>
@@ -64,7 +64,7 @@
           attractions</strong>, a visit to Romania has plenty to offer.</h3>
 
       <div class="wrapper wrapper--medium wrapper--b-margin">
-        <img sizes="(min-width: 970) 976px, 100vw" src="assets/images/ceahlau-mountains.jpg" alt="Person on mountain peek.">
+        <img sizes="(min-width: 970) 976px, 100vw" class="lazyload" data-src="assets/images/ceahlau-mountains.jpg" alt="Person on mountain peek.">
       </div>
 
       <h2 class="headline headline--centered headline--light headline-b-margin-small">Top Tourist Attractions</h2>
@@ -72,9 +72,9 @@
       <div class="row row--gutters">
         <div class="row__medium-4 row__medium-4--left row__medium-4--larger row__bottom-margin-until-medium">
           <picture>
-            <source sizes="404px" srcset="assets/images/bran-castle.jpg" media="(min-width: 1020px)">
-            <source sizes="320px" srcset="assets/images/bran-castle-portrait.jpg" media="(min-width: 800px)">
-            <img src="assets/images/bran-castle-landscape.jpg" alt="Castle in the forest">
+            <source sizes="404px" data-srcset="assets/images/bran-castle.jpg" media="(min-width: 1020px)">
+            <source sizes="320px" data-srcset="assets/images/bran-castle-portrait.jpg" media="(min-width: 800px)">
+            <img class="lazyload" data-src="assets/images/bran-castle-landscape.jpg" alt="Castle in the forest">
           </picture>
         </div>
         <div class="row__medium-8 row__medium-8--right row__medium-8-smaller">
@@ -94,9 +94,9 @@
       <div class="row row--gutters">
         <div class="row__medium-4 row__medium-4--right row__medium-4--larger row__bottom-margin-until-medium">
           <picture>
-            <source sizes="404px" srcset="assets/images/transfagarasan.jpg" media="(min-width: 1020px)">
-            <source sizes="320px" srcset="assets/images/transfagarasan-portrait.jpg" media="(min-width: 800px)">
-            <img src="assets/images/transfagarasan-landscape.jpg" alt="Amazing mountain road">
+            <source sizes="404px" data-srcset="assets/images/transfagarasan.jpg" media="(min-width: 1020px)">
+            <source sizes="320px" data-srcset="assets/images/transfagarasan-portrait.jpg" media="(min-width: 800px)">
+            <img class="lazyload" data-src="assets/images/transfagarasan-landscape.jpg" alt="Amazing mountain road">
           </picture>
         </div>
         <div class="row__medium-8 row__medium-8--left row__medium-8-smaller">
@@ -113,9 +113,9 @@
       <div class="row row--gutters">
         <div class="row__medium-4 row__medium-4--left row__medium-4--larger row__bottom-margin-until-medium">
           <picture>
-            <source sizes="404px" srcset="assets/images/romania-palace.jpg" media="(min-width: 1020px)">
-            <source sizes="320px" srcset="assets/images/romania-palace-portrait.jpg" media="(min-width: 800px)">
-            <img src="assets/images/romania-palace-landscape.jpg" alt="Gigantic building">
+            <source sizes="404px" data-srcset="assets/images/romania-palace.jpg" media="(min-width: 1020px)">
+            <source sizes="320px" data-srcset="assets/images/romania-palace-portrait.jpg" media="(min-width: 800px)">
+            <img class="lazyload" data-src="assets/images/romania-palace-landscape.jpg" alt="Gigantic building">
           </picture>
         </div>
         <div class="row__medium-8 row__medium-8--right row__medium-8-smaller">
@@ -133,9 +133,9 @@
       <div class="row row--gutters">
         <div class="row__medium-4 row__medium-4--right row__medium-4--larger row__bottom-margin-until-medium">
           <picture>
-            <source sizes="404px" srcset="assets/images/turda-salt-mine.jpg" media="(min-width: 1020px)">
-            <source sizes="320px" srcset="assets/images/turda-salt-mine-portrait.jpg" media="(min-width: 800px)">
-            <img src="assets/images/turda-salt-mine-landscape.jpg" alt="Castle in the forest">
+            <source sizes="404px" data-srcset="assets/images/turda-salt-mine.jpg" media="(min-width: 1020px)">
+            <source sizes="320px" data-srcset="assets/images/turda-salt-mine-portrait.jpg" media="(min-width: 800px)">
+            <img class="lazyload" data-src="assets/images/turda-salt-mine-landscape.jpg" alt="Castle in the forest">
           </picture>
         </div>
         <div class="row__medium-8 row__medium-8--left row__medium-8-smaller">
@@ -188,7 +188,7 @@
     </div>
   </div>
 
-  <div id="testimonials" class="page-section page-section--testimonials page-section--no-bottom-padding-until-large" data-matching-link="#testimonials-link">
+  <div id="testimonials" class="page-section page-section--testimonials page-section--no-bottom-padding-until-large lazyload" data-matching-link="#testimonials-link">
     <div class="wrapper wrapper--no-padding-until-large">
       <h2 class="section-title section-title--blue"><span class="icon icon--comment section-title__icon"></span>Real <strong>Testimonials</strong></h2>
 
@@ -196,7 +196,7 @@
         <div class="row__large-4 row__large-4--left">
           <div class="testimonial">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-jane.jpg">
+              <img class="lazyload" data-src="assets/images/testimonial-jane.jpg">
             </div>
             <h3 class="testimonial__title">Jane Doe</h3>
             <h4 class="testimonial__subtitle">Transylvania and Dracula's Castle Full Day Tour</h4>
@@ -207,7 +207,7 @@
         <div class="row__large-4 row__large-4--left">
           <div class="testimonial generic-content-container">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-john.jpg">
+              <img class="lazyload" data-src="assets/images/testimonial-john.jpg">
             </div>
             <h3 class="testimonial__title">John Smith</h3>
             <h4 class="testimonial__subtitle">Wow - Amazing</h4>
@@ -218,7 +218,7 @@
         <div class="row__large-4 row__large-4--left">
           <div class="testimonial generic-content-container testimonial--last">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-viking.jpg">
+              <img class="lazyload" data-src="assets/images/testimonial-viking.jpg">
             </div>
             <h3 class="testimonial__title">Jack Morgan</h3>
             <h4 class="testimonial__subtitle">Half Day Tour in Bucharest</h4>
