@@ -4,6 +4,7 @@ import smoothScroll from "jquery-smooth-scroll";
 
 class StickyHeader {
   constructor() {
+    this.topButton = $(".sticky-btn");
     this.lazyImages = $(".lazyload");
     this.siteHeader = $(".site-header");
     this.headerTriggerElement = $(".large-hero__description");
@@ -32,8 +33,10 @@ class StickyHeader {
       handler: function(direction) {
         if (direction == "down") {
           that.siteHeader.addClass("site-header--dark");
+          that.topButton.addClass("btn--orange");
         } else {
           that.siteHeader.removeClass("site-header--dark");
+          that.topButton.removeClass("btn--orange");
         }
       }
     });
@@ -64,7 +67,7 @@ class StickyHeader {
             $(matchingHeaderLink).addClass("is-current-link");
           }
         },
-        offset: "-40%"
+        offset: "bottom-in-view"
       });
     });
   }

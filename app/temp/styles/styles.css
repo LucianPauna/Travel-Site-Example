@@ -439,6 +439,7 @@ a {
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+  transition: background-color .3s ease-out;
 
 }
 
@@ -564,7 +565,7 @@ a {
 
 @media (min-width: 1010px) {
       .page-section--testimonials.lazyloaded {
-        background: url("/assets/images/testimonials.jpg") top center no-repeat;
+        background: url("../../assets/images/testimonials.jpg") top center no-repeat;
         background-size: cover;
       }
   }
@@ -936,11 +937,11 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url("/assets/images/sprites/sprite-bf114d9f.svg");
+      background-image: url("../../assets/images/sprites/sprite-bf114d9f.svg");
     }
 
 .no-svg .icon {
-      background-image: url("/assets/images/sprites/sprite-bf114d9f.png");
+      background-image: url("../../assets/images/sprites/sprite-bf114d9f.png");
     }
 
 .icon--comment {
