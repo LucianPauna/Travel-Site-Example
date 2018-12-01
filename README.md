@@ -4,13 +4,13 @@
 <h4>Tools used</h4>
 
 <ul>
-  <li>BEM Methodology<li>
-  <li>Git<li>
-  <li>HTML5<li>
-  <li>CSS3<li>
-  <li>JavaScript<li>
-  <li>jQuery<li>
-  <li>Node.js<li>
-  <li>NPM<li>
-  <li>PostCSS<li>
+  <li>BEM Methodology</li>
+  <li>Git</li>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript</li>
+  <li>jQuery</li>
+  <li>Node.js</li>
+  <li>NPM</li>
+  <li>PostCSS</li>
 </ul>
