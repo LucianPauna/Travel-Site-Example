@@ -1,5 +1,5 @@
 <h1>Project: Romania Travel Agency</h1>
-<p> Just a personal project I was working to practice, improve and learn new skills</p>
+<p> A mobile first responsive website I was working to practice, improve and learn new skills</p>
 
 <h4>Tools used</h4>
 
