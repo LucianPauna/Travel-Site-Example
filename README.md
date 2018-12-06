@@ -1,7 +1,7 @@
 <h1>Project: Romania Travel Agency</h1>
 <p> A mobile first responsive website I was working to practice, improve and learn new skills</p>
 
-<a href="https://lucianpauna.github.io/Travel-Site-Example/">Have a look...</a>
+<a href="https://lucianpauna.github.io/Travel-Site-Example/" target="_blank">Have a look...</a>
 
 <h4>Tools used</h4>
 
